@@ -10,7 +10,73 @@ a:link,a:visited,a:hover,a:active{
 
 }
 
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
 
+
+.ptb{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.plr{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.wrap{
+    
+}
+
+.w_per100{ width: 100%; }
+.w_per90{ width: 90%; }
+.w_per618{ width: 61.8%; }
+.w_per382{ width: 38.2%; }
+
+.w_per25{width: 25%;}
+.w_per40{width: 40%;}
+.w_per60{width: 60%;}
+
+
+
+
+/* header */
+.header{ height: 48px; text-align: center; }
+.header .logo{ display: inline-block; position: relative; padding: 5px 0 5px 44px; text-align: left; }
+.header .logo .img{ display:block; max-width: 38px; position: absolute; left: 0; top: 5px; }
+.header .logo .zh,
+.header .logo .en{ }
+.header .logo .zh{ margin: 5px 0 4px 0; color: #020202; font-size: 1.2em; line-height: 1em; letter-spacing:10px; font-weight: bold; }
+.header .logo .en{ padding: 1px 4px; color: #fff; line-height: 1em; font-size: 0.8em; text-transform: uppercase; background: #0499dc; border: 1px solid #03539f; -webkit-transform:scale(0.8) translate(-14px,0); -moz-transform:scale(0.8) translate(-14px,0); -ms-transform:scale(0.8) translate(-14px,0); -o-transform:scale(0.8) translate(-14px,0); transform:scale(0.8) translate(-14px,0); }
+
+/* nav */
+.nav_main{ }
+.nav_main .ul{ height: 40px; background: #0499dc; }
+.nav_main .ul .itme{ position: relative; width: 25%; display: block; color: #fff; text-align: center; line-height: 40px; font-size: 1.4em; float: left; }
+.nav_main .ul .link{ display: block; color: #fff; }
+.nav_main .ul .link .icon{ display: inline-block; }
+
+.nav_main .ul .itme:hover,
+.nav_main .hover .link{ background: #03539f; }
+.nav_main .ul .link:hover .icon,
+.nav_main .ul .link:focus .icon{ -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
+.nav_main .ul .itme:hover .nav_sub,
+.nav_main .ul .itme:active .nav_sub{ display: block; }
+.nav_sub{ position: absolute; display: none; top: 100%; width: 100%; background: #0499dc; }
+.nav_sub .link{ display: block; float: none; background: #0499dc; }
+.nav_sub .link:hover{ background: #03539f; }
+
+
+/* main  */
+.main{
+
+}
+
+
+/* footer */
+.footer{
+
+}
 
 
 
@@ -19,17 +85,60 @@ a:link,a:visited,a:hover,a:active{
 /*
 	布局
 */
+.g_col_2{ }
+.g_col_2 .span{ width: 50%; float: left; }
 
+.g_col_3{ }
+.g_col_3 .span{ width:33.33333333333%; float: left; }
+
+.g_col_4{ }
+.g_col_4 .span{ width: 25%; float: left; }
+
+.g_col_5{ }
+.g_col_5 .span{ width:20%; float: left; }
+
+.g_col_6{ }
+.g_col_6 .span{ width: 16.6666666666666%; float: left; }
 
 /*
 	元件
 */
+
+/* 标题 */
+.u_title{
+
+}
+
 
 
 
 /*
 	模块
 */
+
+/* banner */
+.m_banner{
+	
+}
+
+
+/* banner 单个 */
+.banner_single{
+
+}
+.banner_single .img{
+	width: 100%;
+	display: block;
+}
+
+
+/* itme */
+.m_itme{
+
+}
+.m_itme{
+
+}
 
 
 
@@ -71,19 +180,19 @@ a:link,a:visited,a:hover,a:active{
 
 	全局
 	
-	  	  主色
+	  	  主色 0499dc
 	 	  辅色 
     	高亮色
-    	阴影色
+    	阴影色 03539f
     	点睛色
     	背景色
 
 	  字体颜色 
 
-	主标题颜色 
-	副标题颜色 
+	主标题颜色  
+	副标题颜色 020202
 	  正文颜色 
-	
+	 
 	  过渡颜色
 
 	主标题大小 
