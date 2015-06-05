@@ -1,11 +1,28 @@
 @charset "utf-8";
 
+/* index aboutu*/
+.index_aboutus{ }
+.index_aboutus .content{ position: relative; padding-left: 120px; padding-bottom:20px; padding-right:10px; padding-top: 20px; height: 100px; overflow: hidden; }
+.index_aboutus .content .img_box{ position: absolute; top:20px; left: 10px; width: 100px; }
+.index_aboutus .content .img{ display: block; width: 100%; position: relative; overflow: hidden; }
+
+.index_aboutus .content .txt{ font-size: 1.4em; line-height: 1.8em; color: #8f8e8e; height: 100px; overflow:hidden; }
+.index_aboutus .content .txt p{ text-indent: 2em; }
 
 
 
 /* css 3 */
 .nav_main .ul .itme,
-.nav_main .ul .link .icon{
+.nav_main .ul .link .icon,
+.m_share .ul li:last-child .link,
+.m_share .ul .itme .link,
+.m_itme .title_warp .more,
+.m_itme_img .img_box,
+.m_itme_img .img_box .cover,
+.m_itme_txtimg .itme,
+.m_itme_txtimg .itme .title,
+.m_itme_txtimg .itme .txt,
+.m_itme_txtimg .itme .img_box{
 	-webkit-transition:all .4s ease-out;
 	-moz-transition:all .4s ease-out;
 	-ms-transition:all .4s ease-out;
