@@ -53,7 +53,7 @@ a:link,a:visited,a:hover,a:active{
 .nav_main .ul .link:focus .icon{ -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
 .nav_main .ul .itme:hover .nav_sub,
 .nav_main .ul .itme:active .nav_sub{ display: block; }
-.nav_sub{ position: absolute; display: none; top: 100%; width: 100%; background: #0499dc; }
+.nav_sub{ position: absolute; display: none; top: 100%; width: 100%; background: #0499dc; z-index: 4;}
 .nav_sub .link{ display: block; float: none; background: #0499dc; }
 .nav_sub .link:hover{ background: #03539f; }
 
@@ -124,13 +124,13 @@ a:link,a:visited,a:hover,a:active{
 
 
 /* banner 单个 */
-.banner_single{
+.banner_single{ }
+.banner_single .img{ width: 100%; display: block; }
 
-}
-.banner_single .img{
-	width: 100%;
-	display: block;
-}
+/* banner sub */
+.banner_sub{ }
+.banner_sub .img{ width: 100%; display: block; }
+
 
 
 /* itme */
@@ -194,6 +194,10 @@ a:link,a:visited,a:hover,a:active{
 
 
 
+/* 分页 */
+.m_mage{
+
+}
 
 
 
